@@ -14,7 +14,9 @@ html,body{
 .pr-5{
     padding-right: 5px;
 }
-
+.mb-20{
+     margin-bottom: 20px;
+}
 a:link,
 a:visited,
 a:hover,
@@ -127,4 +129,9 @@ a:active{
     vertical-align: middle;
 }
 
+
+
+#second_tb td{
+    vertical-align: middle;
+}
 
