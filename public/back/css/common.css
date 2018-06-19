@@ -122,4 +122,9 @@ a:active{
 }
 
 
+/* 用户管理 */
+#user_tb td{
+    vertical-align: middle;
+}
+
 
