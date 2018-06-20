@@ -4,10 +4,10 @@ $(function () {
         $.ajax({
             type: 'get',
             url: '/employee/checkRootLogin',
-            success: function (info) {               
+            success: function (info) {   
+                console.log(info);            
                 if (info.error == 400) {
                     location.href = 'login.html';
-
                 };
                 NProgress.done(); 
             }
