@@ -1,0 +1,41 @@
+.first_left{
+  width: 90px;
+  position: relative;
+  float: left;
+  height: 100%;
+}
+.first_left ul{
+  width: 90px;
+  background-color: #fdfdfd;
+ 
+}
+.first_left li{
+  width: 100%;
+  height: 50px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.first_left li a{
+  text-align: center;
+  display: block;
+  color: #069;
+  line-height: 50px;
+}
+.first_left li.current{
+  border-right-color:transparent;
+  background-color: #fff; 
+}
+
+.second_right{
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+  padding:10px;
+}
+.second_right ul li{
+  float: left;
+  padding:10px;
+  width: 33.33%;
+  text-align: center;
+}
+

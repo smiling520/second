@@ -29,6 +29,23 @@ img{
     top: 0;
     background-color: #069;
 }
+.lt_header .title{
+    height: 45px;
+    overflow: hidden;
+    color:#fff; 
+    font-weight: normal;
+    text-align: center;
+    line-height: 45px;
+    margin:0;
+}
+.lt_header a{
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+}
 .lt_footer{
     height: 55px;
     width: 100%;
@@ -39,13 +56,14 @@ img{
 .lt_content{
     height: 100%;
     width: 100%;
-    position: relative;
+    /* position: relative; */
     /* background-color:green; */
 }
 
 .lt_footer li{
     width: 25%;
     height: 55px;
+
     text-align: center;
     
 }
