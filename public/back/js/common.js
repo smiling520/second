@@ -31,7 +31,7 @@ $(function () {
                 type: 'get',
                 url: '/employee/employeeLogout',
                 success: function (info) {
-                    console.log(info);
+                    //console.log(info);
                     if (info.success) {
                         $('.login_out_modal').modal('hide');
                         location.href = 'login.html';

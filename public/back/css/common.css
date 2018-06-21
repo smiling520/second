@@ -131,7 +131,10 @@ a:active{
 
 
 
-#second_tb td{
+#second_tb td,
+#product_tb td{
     vertical-align: middle;
 }
+
+
 
