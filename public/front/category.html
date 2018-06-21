@@ -84,6 +84,7 @@
         {{/each}}
     </script>
     <script type="text/html" id="secondTpl">
+        {{rows.length==0?'暂无商品':''}}
         {{each rows v i}}
         <li>
                 <a href="javascrip:;">

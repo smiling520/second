@@ -32,10 +32,16 @@
   position: relative;
   padding:10px;
 }
+.second_right ul{
+  padding:10px;
+}
 .second_right ul li{
   float: left;
   padding:10px;
   width: 33.33%;
   text-align: center;
+}
+.second_right ul img{
+  width: 100%;
 }
 
