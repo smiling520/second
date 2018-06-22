@@ -86,3 +86,9 @@ img{
     color: #fff;
 }
 
+
+
+/* 产品 */
+.product li p.mui-ellipsis-2 {
+    height: 42px;
+}
