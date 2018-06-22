@@ -30,7 +30,7 @@ $(function(){
     $('.second_add').on('click',function(){
         $('.second_modal').modal('show');
         $.ajax({
-            url: '/category/querySecondCategoryPaging',
+            url: '/category/queryTopCategoryPaging',
             type: 'get',
             data: {
                 page: 1,
