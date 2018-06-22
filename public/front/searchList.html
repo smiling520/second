@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="lib/mui/fonts/mui.ttf">
     <link rel="stylesheet" href="lib/fa/css/font-awesome.css">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/search.css">
+
    
 
 </head>
@@ -21,7 +21,7 @@
         <div class="lt_header mui-clearfix">
             <a class="mui-icon mui-icon-back mui-pull-left" href="javascript:window.history.go(-1);" style="font-size: 30px"></a>
             <a class="mui-pull-right" href="javascript:;"></a>
-            <h3 class="title">乐淘搜索</h3>
+            <h3 class="title">商品列表</h3>
         </div>
         <div class="lt_content mui-clearfix">
             <div class=" lt_con">
@@ -31,8 +31,9 @@
                             <input type="text" placeholder="请输入搜索关键字">
                             <button class="mui-btn mui-btn-primary">搜索</button>
                         </div>
-                        <div class="search_con">
-                           <!-- 搜索模版 -->
+                        <div class="list_con">
+                           <div class="list_sort"></div>
+                           <div class="list_desc"></div>
                         </div>
                         
                     </div>
@@ -73,35 +74,12 @@
 
         </div>
     </div>
-   <script type="text/html" id="searchTpl">
-    {{if list.length==0}}
-        <p>暂时没有搜索记录</p>
-    {{else}}
-       <dl>
-            <dt class="mui-clearfix">
-                <span class="pull-left">
-                    搜索历史
-                </span>
-            
-                   <a href="javascript:;" class="pull-right fa fa-trash clear_btn ">清空记录</a> 
-          
-            </dt>
-          <!-- 搜索模版 -->
-          {{each list v i}}
-          <dd class="mui-clearfix">
-              <a href="#" class="mui-pull-left"><span>{{v}}</span></a>
-              <a href="#" class="mui-icon mui-icon-closeempty mui-pull-right search_del" data-history="{{v}}"></a>
-          </dd>
-          {{/each}}  
-        </dl>
-     {{/if}}
-   
-    </script>
+ 
     <script src="lib/mui/js/mui.js"></script>
     <script src="lib/zepto/zepto.min.js"></script>
     <script src="lib/artTemplate/template-web.js"></script>
     <script src="js/common.js"></script>
-    <script src="js/search.js"></script>
+    
 
 </body>
 

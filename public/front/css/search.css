@@ -1,0 +1,30 @@
+.search_con{
+  padding:0 10px;
+  margin-top:20px;
+}
+.search_con dl dt{
+  font-size: 12px;
+  color: #666;
+}
+.search_con dt a{
+  color: #666;
+}
+.search_con dd{
+  border: 1px dashed red;
+  border-bottom: none;
+  font-size: 12px;
+  padding:0 0 0 10px;
+  line-height: 30px;
+  height: 30px;
+}
+.search_con dd:nth-last-of-type(1){
+  border-bottom:1px dashed red;
+}
+.search_con dd a{
+  height: 30px;
+}
+.search_con dd a.search_del{
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+}
