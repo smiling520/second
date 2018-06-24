@@ -1,0 +1,10 @@
+.lt_content {
+  padding:10px;
+}
+.lt_content input{
+  border: 1px solid #ccc;
+}
+.lt_content  .mui-input-row{
+  margin-bottom: 10px;
+  border-radius: 3px;
+}

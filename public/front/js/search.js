@@ -15,10 +15,17 @@ $(function(){
     })
     
   });
+  $('.search_con').on('click','.content_a',function(){
+    var txt =$(this).data('content');
+    $('.search_title input').val(txt);
+    location.href ='searchList.html?key='+txt;
+
+    render();
+  });
   $('.search_con').on('click','.search_del',function(){
     var data = $(this).data('history');
 
-    mui.confirm('你确定要清空搜索历史记录吗？','温馨提示',['是','否'],function(e){     
+    mui.confirm('你确定要删除这条搜索历史记录吗？','温馨提示',['是','否'],function(e){     
       if(e.index===0){
         var arr = getHistory();
         data =data.toString();

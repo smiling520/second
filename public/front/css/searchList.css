@@ -1,0 +1,40 @@
+.list_con{
+  margin-top:10px;
+
+}
+.list_con .list_sort{
+  height: 30px;
+  padding:0 10px;
+  background-color: #eee;
+}
+.list_sort li{
+  float: left;
+  font-size: 12px;
+  width: 25%;
+  line-height: 30px;
+  height: 30px;
+  text-align: center;
+}
+.list_sort li a{
+  color: #666;
+}
+.list_sort li.current a{
+  color: orange;
+}
+.loading{
+  width: 30px;
+  height: 30px;
+  border: 3px solid #069;
+  animation: zhuan 1s infinite;
+  margin:100px auto 0;
+
+}
+@keyframes zhuan{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+
+}

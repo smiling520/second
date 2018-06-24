@@ -21,39 +21,4 @@
     width: 100%;
 }
 
-.product {
-    padding:10px;
-}
-.product li{
-    width: 49%;
-    float: left;
-    margin-bottom: 10px;
-}
-.product li:nth-child(even){
-    margin-left: 2%;
-}
-.product li a{
-    text-align: center;
-    display: block;
-    padding:10px;
-    border: 1px solid #ededed;
-}
-.product li img{    
-    width: 100%;
-}
-.product li p{
-    margin:0;
-    color:#333;
-}
-.product li span{
-    line-height: 40px;
-}
-.product li span:nth-child(1){
-    font-size: 18px;
-    color:red;
 
-}
-.product li span:nth-child(2){
-    text-decoration: line-through;
-    
-}
